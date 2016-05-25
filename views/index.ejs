@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SpotSport Authentication</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/superhero/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<style>
+		body	{padding-top: 80px; }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1><span class="fa fa-money" aria-hidden="true">SpotSport Authentication</span></h1>
+			<p>Preview, Login or Register with:<% message %></p>
+			<a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Local Login</a>
+			<a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Local Signup</a>
+			<a href="/game" class="btn btn-default"><span class="fa fa-calendar" aria-hidden="true"></span>Preview Games</a>
+		</div>
+		<div><% message %></div>
+	</div>
+</body>
+</html>
